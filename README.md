@@ -16,11 +16,11 @@ TUABEXB train/test as described in Kiessnerk et al. (2023)
 
 
 
-TUABCOMB: Union of TUAB-R train set and TUABEXB-R train set
+TUABCOMB: Union of TUAB train set and TUABEXB train set
 
 - dataset_description/ - description of all datasets and train/test data splits. Each description contains the path of the recordings used and pathology labels based on automated classification of the medical text reports. 'path_new' refers to the same recording in the current version of the Temple University Hospital EEG Corpus (v2.0.0).
 
-- code/ - Python scripts and notebooks for processing of the text files and training pipeline of the convolutional neural networks.
+- code/ - Python scripts and notebooks for data loading and training pipeline of the convolutional neural networks.
 
 - indices/ - indices to identify the recordings for each of the randomly selected smaller subsets of each training dataset based in the description file.
 
