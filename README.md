@@ -22,7 +22,7 @@ TUABCOMB: Union of TUAB train set and TUABEXB train set
 
 - code/ - Python scripts and notebooks for data loading and training pipeline of the convolutional neural networks.
 
-- indices/ - indices to identify the recordings for each of the randomly selected smaller subsets of each training dataset based in the description file.
+- indices_smaller_subsets/ - indices to identify the recordings for each of the randomly selected smaller subsets of each training dataset based in the description file.
 
 ## Environments
 
