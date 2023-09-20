@@ -12,7 +12,7 @@ TUAB train/test split as provided by the TUH.
 
 TUH Abnormal Expansion Balanced EEG Corpus (TUABEXB):
 
-TUABEXB train/test as described in Kiessnerk et al. (2023)
+TUABEXB train/test as described in Kiessner, A. K., Schirrmeister, R. T., Gemein, L. A., Boedecker, J., & Ball, T. (2023). An extended clinical EEG dataset with 15,300 automatically labelled recordings for pathology decoding. NeuroImage: Clinical, 39, 103482.
 
 
 
