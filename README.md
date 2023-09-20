@@ -24,6 +24,8 @@ TUABCOMB: Union of TUAB train set and TUABEXB train set
 
 - indices_smaller_subsets/ - indices to identify the recordings for each of the randomly selected smaller subsets of each training dataset based in the description file.
 
+- results_csv / contains the decoding accuracies of all runs and experiments
+
 ## Environments
 
 This repository expects a working installation of [braindecode](https://github.com/braindecode/braindecode).  
@@ -44,6 +46,9 @@ Please note that the current version of the data is the TUH Abnormal EEG Corpus 
 Updates include the removal of medical reports and the restructuring of the Unix-style hierarchical file tree structure. 
 We have updated the record description of the TUABEXB to be compatible with the current version of the TUEG and TUAB.
 The corresponding pathology labels for the TUH Abnormal Expansion Balanced EEG Corpus are available for download at \url{github.com/AKiessner/TUHAbnormal-Expansion-dataset}. The descriptions of the dataset variants used in this paper include the path of the recording within the TUEG and the associated labels for EEG pathology.
+
+
+
 
 ## Citing
 
