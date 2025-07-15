@@ -2,7 +2,7 @@
 
 This repository contains resources that were used for our study entitled
 
-"XXXXX".
+"Kiessner, A. K., Schirrmeister, R. T., Boedecker, J., & Ball, T. (2024). Reaching the ceiling? Empirical scaling behaviour for deep EEG pathology classification. Computers in Biology and Medicine, 178, 108681.". [PDF](https://doi.org/10.1016/j.compbiomed.2024.108681)
 
 ## Contents
 
