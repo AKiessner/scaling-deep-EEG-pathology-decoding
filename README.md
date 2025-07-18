@@ -53,7 +53,9 @@ The corresponding pathology labels for the TUH Abnormal Expansion Balanced EEG C
 ## Citing
 
 If you use this code in a scientific publication, please cite us as:
-
+```
+Kiessner, A. K., Schirrmeister, R. T., Boedecker, J., & Ball, T. (2024). Reaching the ceiling? Empirical scaling behaviour for deep EEG pathology classification. Computers in Biology and Medicine, 178, 108681.
+```
 ```
 @article{KIESSNER2024Scaling,
 title = {Reaching the ceiling? Empirical scaling behaviour for deep EEG pathology classification},
@@ -65,8 +67,6 @@ issn = {0010-4825},
 doi = {https://doi.org/10.1016/j.compbiomed.2024.108681},
 url = {https://www.sciencedirect.com/science/article/pii/S0010482524007662},
 author = {Ann-Kathrin Kiessner and Robin T. Schirrmeister and Joschka Boedecker and Tonio Ball},
-keywords = {Deep learning in medicine, AI-based clinical decision making, EEG, Pathology classification, Convolutional Neural Networks, Scaling laws},
-abstract = {Machine learning techniques, particularly deep convolutional neural networks (ConvNets), are increasingly being used to automate clinical EEG analysis, with the potential to reduce the clinical burden and improve patient care. However, further research is required before they can be used in clinical settings, particularly regarding the impact of the number of training samples and model parameters on their testing error. To address this, we present a comprehensive study of the empirical scaling behaviour of ConvNets for EEG pathology classification. We analysed the testing error with increasing the training samples and model size for four different ConvNet architectures. The focus of our experiments is width scaling, and we have increased the number of parameters to up to 1.8 million. Our evaluation was based on two publicly available datasets: the Temple University Hospital (TUH) Abnormal EEG Corpus and the TUH Abnormal Expansion Balanced EEG Corpus, which together contain 10,707 training samples. The results show that the testing error follows a saturating power-law with both model and dataset size. This pattern is consistent across different datasets and ConvNet architectures. Furthermore, empirically observed accuracies saturate at 85%–87%, which may be due to an imperfect inter-rater agreement on the clinical labels. The empirical scaling behaviour of the test performance with dataset and model size has significant implications for deep EEG pathology classification research and practice. Our findings highlight the potential of deep ConvNets for high-performance EEG pathology classification, and the identified scaling relationships provide valuable recommendations for the advancement of automated EEG diagnostics.}
 }
 
 ```
